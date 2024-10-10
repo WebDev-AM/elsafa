@@ -364,12 +364,14 @@ ul {
   bottom: 0;
   width: 100%;
   direction: ltr;
-  font-size: 10px;
+  height: 30px;
+  font-size: 12px;
 }
 .footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100%;
 }
 
 .footer-right {
@@ -386,6 +388,7 @@ ul {
   align-items: center;
   font-size: 15px;
   color: var(--main-color);
+  gap: 5px;
 }
 
 .footer-right span {
